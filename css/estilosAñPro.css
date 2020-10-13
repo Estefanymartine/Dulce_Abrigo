@@ -1,0 +1,42 @@
+*{
+	background: #204a87;
+}
+h2{
+	background: white;
+	color: #204a87;
+}
+.AllMensajes{
+	
+	padding: 30px;
+	width: 94.4%;
+	background: white;
+	color: white;
+	text-align: center;
+	font-family: arial;
+	text-decoration: none;
+	border-radius: 30px;
+	margin-top: 500px;
+	position: fixed;
+	left:0.6%;
+	top: 1%;
+	display: block;
+}
+.volver{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	background: #204a87;
+	border-radius: 20px;
+}
+.volver:hover{
+	background: #203a99;
+	font-size: 18px;
+	transition: 2s;
+}
+.LogoMensaje{
+	width: 650px;
+	position: fixed;
+	left: 26%;	
+	top: 20px;
+	display: block;
+}
