@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #87cfc9;
+  font-family: sans-serif;
+}
+
+
+.formulario{
+  width: 500px;
+  height: 500px;
+  background:#4db6ac;
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 10px 30px;
+  border-radius: 9%;
+}
+
+.h1 {
+  margin: 0;
+  padding: 18px;
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+}
+
+.foto-usuario{
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  display: block;
+  margin: auto;
+}
+
+ .contenedor label{
+  margin: 0;
+  padding: 0px;
+  font-weight: bold;
+  color: #fff;
+  display: block;
+}
+ 
+.contenedor input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contenedor input[type="text"], .contenedor input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.contenedor input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #00695c;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.contenedor input[type="submit"]:hover {
+  cursor: pointer;
+  background: #00838f;
+  color: #000;
+
+ 
+}
+
+.custom-select{
+  position: relative;
+  font-family: arial;
+  display: block;
+}
+
+.ayuda{
+  left: 100px;
+  
+}
+
