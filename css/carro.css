@@ -1,0 +1,82 @@
+.tablacarro{
+   margin: 10px auto;
+   width: 1000px; 
+   font-family: arial;
+}
+
+h3{
+    margin: 40px auto;
+    width: 1000px; 
+    font-family: arial;
+    font-size: 28px;
+ }
+
+.icon-cart{
+    position: absolute; left: 140px;
+    margin: 0px auto;
+    width: 1000px; 
+    font-family: arial;
+    font-size: 28px;
+    color: #204a81;
+
+}
+
+.text-danger{
+    color: #204a81;
+}
+
+.seguir{
+    position: absolute; left: 1010px;
+    margin: 20px auto;
+    padding: 5px;
+    background-color: #204a81;
+    width: 100px; 
+    height: 40px;
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+
+table{
+    background-color: #eaeaea;
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    
+}
+
+th, td{
+    padding: 10px;
+
+}
+
+thead{
+    background-color: #204a81;
+    color: white;
+    border-bottom: solid 5px #eaeaea;
+}
+
+table img{
+    border-radius: 12px;
+}
+
+tr:nth-child(even){
+    background-color: #e0e0e0;
+}
+
+tr:hover td{
+    background-color: #bdbdbd;
+    color: black;
+}
+
+
+#container{
+    text-align: center;
+    margin-top: -60px;
+    padding: 50px;
+    font-size: 22px;
+}
+
+
